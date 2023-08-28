@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /*Eixo X */
+    justify-content: center;
+    /*Eixo Y */
+    align-items: center;
+
+
+}
+
+
+.left{
+    height: 700px;
+    width: 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #F5F5F5;
+    
+    padding: 20px;
+
+}
+
+.left > h1{
+    color: #77FFC0;
+
+}
+
+img{
+    max-width: 69vw;
+}
+
+
+
+
+.right{
+
+    height: 700px;
+    width: 49vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #F5F5F5;
+    padding: 20px;
+    
+
+}
+
+.card{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 10%);
+    
+
+
+}
+
+.card > h1{
+    color: #00A551;
+    padding: 18px;
+    font-size: 30px;
+
+
+}
+
+.card > h2{
+    color: #474749;
+    font-size: 16px;
+    font-weight: 400;
+
+
+
+}
+
+.card > h6{
+    color: #474749;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 23px;
+    
+
+
+
+}
+
+.card > h6 > a{
+    color: #00A551;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline #00A551;
+    
+
+
+
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0px;
+
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #F4F4F4;
+    color: black;
+    font-size: 12px;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.textfield > input::placeholder{
+    color: rgb(194, 194, 194);
+}
+
+input:focus{
+    border-color: rgba(0, 0, 0, 0.247);
+    transition: 1s;
+}
+
+.textfield > label{
+    color: #7F7E83;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    
+}
+
+.btn-login{
+    width: 40%;
+    padding: 9px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: #00A551;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    transition: background 1s;
+    background: rgb(97, 209, 157);
+}
+
+h1, label{
+    color: white;
+
+}
